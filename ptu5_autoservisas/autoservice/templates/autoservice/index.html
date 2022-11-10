@@ -1,0 +1,12 @@
+{% extends 'autoservice/base.html' %}
+{% block title %}Welcome to{% endblock title %}
+{% block content %}
+<h1>PTU5 Autoservice</h1>
+<ul>
+    <li>Total Car Models: {{ carmodel_count }}</li>
+    <li>Total Cars {{ car_count }}</li>
+    <li>Total Services {{ service_count }}</li>
+    <li>Total Orders {{ order_count }}</li>
+    <li>Total Order Lines {{ orderline_count }}</li>
+</ul>
+{% endblock content %}
